@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import './style.css';
 
 
 function App() {
 
   return (
-    <>
+    <div className='font-inconsolata font-regular'>
       {/* <!-- Form starts --> */}
 
       Your Journey to Coding Conf 2025 Starts Here!
@@ -37,7 +38,7 @@ function App() {
       Jan 31, 2025 / Austin, TX
 
       {/* <!-- Generated tickets ends --> */}
-    </>
+    </div>
   )
 }
 
